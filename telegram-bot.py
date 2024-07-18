@@ -17,6 +17,7 @@ from collections import Counter
 TOKEN = os.getenv('TELEGRAM_BOT_TOKE')
 if not TOKEN:
     raise ValueError("Telegram bot token is not set.")
+print(f'TOKEN: {TOKEN}')  # Add this line to verify the token
 
 
 COOLDOWN_PERIOD = 10  # Cooldown period in seconds
