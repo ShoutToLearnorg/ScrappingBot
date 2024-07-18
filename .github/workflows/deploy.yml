@@ -25,6 +25,6 @@ jobs:
 
     - name: Run the bot
       run: |
-        python your_script.py
+        python telegram-bot.py
       env:
         TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
