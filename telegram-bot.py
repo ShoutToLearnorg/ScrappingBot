@@ -13,7 +13,7 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from collections import Counter
 
-TOKEN = '7206816632:AAE9guIt2n7rLnItr-HUn2AlOfmaVUNl6zQ'
+TOKEN = 'TELEGRAM_BOT_TOKEN'
 
 COOLDOWN_PERIOD = 10  # Cooldown period in seconds
 user_last_response_time = {}  # To store last response time per user
