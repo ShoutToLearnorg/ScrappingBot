@@ -14,10 +14,10 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from collections import Counter
 
-TOKEN = os.getenv('TELEGRAM_BOT_TOKE')
+TOKEN = os.getenv('TOKEN')
 if not TOKEN:
     raise ValueError("Telegram bot token is not set.")
-print(f'TOKEN: {TOKEN}')  # Add this line to verify the token
+
 
 
 COOLDOWN_PERIOD = 10  # Cooldown period in seconds
