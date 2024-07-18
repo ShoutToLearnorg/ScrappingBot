@@ -27,4 +27,4 @@ jobs:
       run: |
         python telegram-bot.py
       env:
-        TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_BOT_TOKE: ${{ secrets.TELEGRAM_BOT_TOKEN }}
