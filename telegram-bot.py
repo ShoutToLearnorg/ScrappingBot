@@ -14,7 +14,7 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from collections import Counter
 
-TOKEN = os.getenv('TOKEN')
+TOKEN = os.getenv('TELEGRAM_BOT_TOKE')
 if not TOKEN:
     raise ValueError("Telegram bot token is not set.")
 
