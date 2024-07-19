@@ -16,7 +16,7 @@ Web Scrapping Bot is a Telegram bot designed to help users find the most relevan
 10. [Author](#author)
 
 ## Features
---------
+
 
 -   **Telegram Bot Integration**: Responds to user queries on Telegram.
 -   **Web Scraping**: Uses Selenium and BeautifulSoup to scrape and parse website content.
@@ -26,7 +26,6 @@ Web Scrapping Bot is a Telegram bot designed to help users find the most relevan
 -   **Caching**: Stores previously fetched links to improve response times for repeated queries.
 
 ## Installation
-------------
 
 Ensure you have the following Python packages installed:
 
@@ -46,14 +45,12 @@ pip install requests beautifulsoup4 fuzzywuzzy indic_transliteration python-tele
 ```
 
 ## Configuration
--------------
 
 1.  **Set Up Telegram Bot Token**: Replace the `TOKEN` variable with your own Telegram Bot API token. Obtain this token by creating a bot on Telegram.
 
 2.  **Update the Target URL**: Modify the `url` variable in the `handle_message` function to point to the website you want to scrape.
 
 ## Usage
------
 
 1.  **Run the Bot**: Execute the script using Python:
 
@@ -64,7 +61,6 @@ pip install requests beautifulsoup4 fuzzywuzzy indic_transliteration python-tele
 2.  **Interact with the Bot**: Start a chat with your bot on Telegram and send a query. The bot will respond with the most relevant link found on the specified website.
 
 ## Code Overview
--------------
 
 -   **`scrape_website_with_selenium(url)`**: Scrapes the website's content using Selenium and BeautifulSoup.
 -   **`transliterate_query(query)`**: Converts the query between ITRANS and Devanagari scripts.
@@ -74,26 +70,21 @@ pip install requests beautifulsoup4 fuzzywuzzy indic_transliteration python-tele
 -   **`main()`**: Sets up and starts the Telegram bot.
 
 ## Logging
--------
 
 The bot uses Python's built-in logging module to provide information about its operations. Logs are set to `INFO` level by default.
 
 ## Troubleshooting
----------------
 
 -   **Web Scraping Issues**: Ensure that the website you are scraping allows automated access and that the URL is correct.
 -   **Telegram API Issues**: Verify that your Telegram Bot token is valid and that your bot is correctly set up.
 
 ## Contributing
-------------
 
 Feel free to submit issues or pull requests if you find bugs or want to add new features. Contributions are always welcome!
 
 ## License
--------
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-
+This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 
